@@ -3,5 +3,6 @@ RUN pip install \
 	bash_kernel \
 	keras \
 	tensorflow \
-	jupyter-console
+	jupyter-console \
+	pulp
 RUN python -m bash_kernel.install
